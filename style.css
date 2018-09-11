@@ -1,0 +1,177 @@
+/* Général */
+
+body
+{
+	font-family: 'lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: bold;
+}
+p
+{
+	font-size: 15px;
+}
+img
+{
+	max-width: 50%;
+	height:auto; 
+}
+
+section .heading
+{
+	text-align: center;
+	padding-bottom: 50px;
+}
+header
+{
+	margin-bottom: 40px;
+}
+
+.navbar-nav
+{
+	margin-top: 30px;
+}
+/* Section 1 */
+#about
+{
+	padding-top: 100px;
+	background-color: #354C8C;
+}
+.profile-picture
+{
+	text-align: center;
+	margin:0 auto;
+	float: none;
+}
+#about .heading h1
+{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#about .heading h3
+{
+	color: black;
+
+}
+.button1
+{
+	color: #fff;
+}
+
+
+/* Section 2 */
+
+#mot
+{
+	margin: 30px auto;
+	text-align: center;
+	padding: 20px;
+}
+
+#mot h1
+{
+	font-size: 20px;
+}
+
+
+.card-block
+{
+	padding: 20px;
+	height: 250px;
+}
+
+
+/*Section 3*/
+
+
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: #ED8D8D;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #ED8D8D;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #ED8D8D;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #ED8D8D;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+/* Section EXP */
+
+#exp
+{
+	margin-top: 40px;
+
+}
+.card
+{
+	margin: 0 auto;
+}
+
+#section4
+{
+	text-align: center;
+	margin: 40px auto;
+}
